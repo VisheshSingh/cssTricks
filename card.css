@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #17141d;
+  color: #fff;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.card-list {
+  display: flex;
+  padding: 3rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 400px;
+  min-width: 250px;
+  padding: 1.5rem;
+
+  background: #17141d;
+  border-radius: 16px;
+  box-shadow: -1rem 0 3rem #000;
+}
