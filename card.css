@@ -47,4 +47,17 @@ body {
   background: #17141d;
   border-radius: 16px;
   box-shadow: -1rem 0 3rem #000;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-1rem);
+}
+
+.card:hover ~ .card {
+  transform: translateX(130px);
+}
+
+.card:not(:first-child) {
+  margin-left: -130px;
 }
